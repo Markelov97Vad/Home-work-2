@@ -11,5 +11,4 @@ for i in range(len(l)):
     if l[i] % 3 == 0 and l[i] % 5 != 0:
         del_na = l[i]
 
-# делятся на 3 и не делятся на 5
-print(Max, Min, del_na)
+print("Максимальное: " + str(Max) + ",","Минимальное: " + str(Min)+ ",","Делится на 3 и не делится на 5: " + str(del_na))
